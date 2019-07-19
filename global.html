@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>(global) - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="global.html#var">Var Details</a> - <a href="global.html#proc">Proc Details</a></header>
+<main>
+<h1>(global)
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/(unknown)">
+        <img src="git.png" width="16" height="16" title="(unknown)"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="global.html#var/Failsafe">Failsafe</a></th><td>Failsafe</td></tr>
+            <tr><th><a href="global.html#var/Master">Master</a></th><td>StonedMC</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="global.html#proc/Gibberish">Gibberish</a></th><td>Turn text into complete gibberish!</td></tr>
+            <tr><th><a href="global.html#proc/IsAdminGhost">IsAdminGhost</a></th><td>Is the passed in mob an admin ghost</td></tr>
+            <tr><th><a href="global.html#proc/above_neck">above_neck</a></th><td>Would this zone be above the neck</td></tr>
+            <tr><th><a href="global.html#proc/check_zone">check_zone</a></th><td>Convert a PRECISE ZONE into the BODY_ZONE</td></tr>
+            <tr><th><a href="global.html#proc/completed_bounty_count">completed_bounty_count</a></th><td>Subtype Gens</td></tr>
+            <tr><th><a href="global.html#proc/considered_exiled">considered_exiled</a></th><td>Exiled check</td></tr>
+            <tr><th><a href="global.html#proc/cultslur">cultslur</a></th><td>Makes you talk like you got cult stunned, which is slurring but with some dark messages</td></tr>
+            <tr><th><a href="global.html#proc/derpspeech">derpspeech</a></th><td>Convert a message to derpy speak</td></tr>
+            <tr><th><a href="global.html#proc/findname">findname</a></th><td>Find if the message has the real name of any user mob in the mob_list</td></tr>
+            <tr><th><a href="global.html#proc/getleftblocks">getleftblocks</a></th><td>DNA HELPER-PROCS</td></tr>
+            <tr><th><a href="global.html#proc/is_blind">is_blind</a></th><td>Checks if passed through item is blind</td></tr>
+            <tr><th><a href="global.html#proc/is_special_character">is_special_character</a></th><td>Is this mob special to the gamemode?</td></tr>
+            <tr><th><a href="global.html#proc/item_heal_robotic">item_heal_robotic</a></th><td>Heal a robotic body part on a mob</td></tr>
+            <tr><th><a href="global.html#proc/json_deserialize_datum">json_deserialize_datum</a></th><td>Convert a list of json to datum</td></tr>
+            <tr><th><a href="global.html#proc/json_serialize_datum">json_serialize_datum</a></th><td>Convert a datum into a json blob</td></tr>
+            <tr><th><a href="global.html#proc/load_map">load_map</a></th><td>Shortcut function to parse a map and apply it to the world.</td></tr>
+            <tr><th><a href="global.html#proc/log_combat">log_combat</a></th><td>Log a combat message in the attack log</td></tr>
+            <tr><th><a href="global.html#proc/log_directed_talk">log_directed_talk</a></th><td>Helper for logging of messages with only one sender and receiver</td></tr>
+            <tr><th><a href="global.html#proc/make_datum_references_lists">make_datum_references_lists</a></th><td>Initial Building</td></tr>
+            <tr><th><a href="global.html#proc/movespeed_data_null_check">movespeed_data_null_check</a></th><td>Checks if a move speed modifier is valid and not missing any data</td></tr>
+            <tr><th><a href="global.html#proc/ninjaspeak">ninjaspeak</a></th><td>Convert a message into leet non gaijin speak</td></tr>
+            <tr><th><a href="global.html#proc/notify_ghosts">notify_ghosts</a></th><td>Fancy notifications for ghosts</td></tr>
+            <tr><th><a href="global.html#proc/offer_control">offer_control</a></th><td>Offer control of the passed in mob to dead player</td></tr>
+            <tr><th><a href="global.html#proc/process_teleport_locs">process_teleport_locs</a></th><td>Generate a list of turfs you can teleport to from the areas list</td></tr>
+            <tr><th><a href="global.html#proc/ran_zone">ran_zone</a></th><td>Return the zone or randomly, another valid zone</td></tr>
+            <tr><th><a href="global.html#proc/shake_camera">shake_camera</a></th><td>Shake the camera of the person viewing the mob SO REAL!</td></tr>
+            <tr><th><a href="global.html#proc/slur">slur</a></th><td>Makes you speak like you're drunk</td></tr>
+            <tr><th><a href="global.html#proc/stars">stars</a></th><td>Convert random parts of a passed in message to stars</td></tr>
+            <tr><th><a href="global.html#proc/stutter">stutter</a></th><td>Adds stuttering to the message passed in</td></tr>
+            <tr><th><a href="global.html#proc/voice_of_god">voice_of_god</a></th><td>VOICE OF GOD</td></tr></table>
+    <h2><a name="var">Var Details</a></h2><h3><aside class="declaration">var </aside><a name="var/Failsafe">Failsafe</a>
+            <aside>&ndash; /static/<a href="datum.html">datum</a>/controller/failsafe</aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/controllers/failsafe.dm#L7">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;failsafe.dm 7"/></a></h3>
+        <p>Failsafe</p>
+<p>Pretty much pokes the MC to make sure it's still alive.</p><h3><aside class="declaration">var </aside><a name="var/Master">Master</a>
+            <aside>&ndash; /static/<a href="datum.html">datum</a>/controller/master</aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/controllers/master.dm#L11">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;master.dm 11"/></a></h3>
+        <p>StonedMC</p>
+<p>Designed to properly split up a given tick among subsystems
+Note: if you read parts of this code and think &quot;why is it doing it that way&quot;
+Odds are, there is a reason</p><h2><a name="proc">Proc Details</a></h2><h3><aside class="declaration">proc </aside><a name="proc/Gibberish">Gibberish</a><aside>(t, p) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L206">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 206"/></a></aside>
+        </h3>
+        <p>Turn text into complete gibberish!</p>
+<p>t is the inputted message, and any value higher than 70 for p will cause letters to be replaced instead of added</p><h3><aside class="declaration">proc </aside><a name="proc/IsAdminGhost">IsAdminGhost</a><aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L466">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 466"/></a></aside>
+        </h3>
+        <p>Is the passed in mob an admin ghost</p><h3><aside class="declaration">proc </aside><a name="proc/above_neck">above_neck</a><aside>(zone) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L45">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 45"/></a></aside>
+        </h3>
+        <p>Would this zone be above the neck</p><h3><aside class="declaration">proc </aside><a name="proc/check_zone">check_zone</a><aside>(zone) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L11">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 11"/></a></aside>
+        </h3>
+        <p>Convert a PRECISE ZONE into the BODY_ZONE</p><h3><aside class="declaration">proc </aside><a name="proc/completed_bounty_count">completed_bounty_count</a><aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/cargo/bounty.dm#L177">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;cargo&#x2F;bounty.dm 177"/></a></aside>
+        </h3>
+        <p>Subtype Gens</p>
+<p>Strict Type Gens</p>
+<p>Dynamic Gens</p>
+<p>Cutoff for Non-Low Priority Bounties</p>
+<p>Low Priority Gens</p><h3><aside class="declaration">proc </aside><a name="proc/considered_exiled">considered_exiled</a><aside>(/<a href="datum.html">datum</a>/mind/M) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/__HELPERS/game.dm#L334">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;game.dm 334"/></a></aside>
+        </h3>
+        <p>Exiled check</p>
+<p>Checks if the current body of the mind has an exile implant and is currently in 
+an away mission. Returns FALSE if any of those conditions aren't met.</p><h3><aside class="declaration">proc </aside><a name="proc/cultslur">cultslur</a><aside>(n) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L118">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 118"/></a></aside>
+        </h3>
+        <p>Makes you talk like you got cult stunned, which is slurring but with some dark messages</p><h3><aside class="declaration">proc </aside><a name="proc/derpspeech">derpspeech</a><aside>(message, stuttering) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L184">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 184"/></a></aside>
+        </h3>
+        <p>Convert a message to derpy speak</p><h3><aside class="declaration">proc </aside><a name="proc/findname">findname</a><aside>(msg) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L274">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 274"/></a></aside>
+        </h3>
+        <p>Find if the message has the real name of any user mob in the mob_list</p><h3><aside class="declaration">proc </aside><a name="proc/getleftblocks">getleftblocks</a><aside>(input, blocknumber, blocksize) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/datums/dna.dm#L457">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;dna.dm 457"/></a></aside>
+        </h3>
+        <p>DNA HELPER-PROCS</p><h3><aside class="declaration">proc </aside><a name="proc/is_blind">is_blind</a><aside>(A) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L328">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 328"/></a></aside>
+        </h3>
+        <p>Checks if passed through item is blind</p><h3><aside class="declaration">proc </aside><a name="proc/is_special_character">is_special_character</a><aside>(/<a href="mob.html">mob</a>/M) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L346">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 346"/></a></aside>
+        </h3>
+        <p>Is this mob special to the gamemode?</p>
+<p>returns 1 for special characters and 2 for heroes of gamemode</p><h3><aside class="declaration">proc </aside><a name="proc/item_heal_robotic">item_heal_robotic</a><aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/carbon.html">carbon</a>/<a href="mob/living/carbon/human.html">human</a>/H, /<a href="mob.html">mob</a>/user, brute_heal, burn_heal) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L448">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 448"/></a></aside>
+        </h3>
+        <p>Heal a robotic body part on a mob</p><h3><aside class="declaration">proc </aside><a name="proc/json_deserialize_datum">json_deserialize_datum</a><aside>(/list/jsonlist, /list/options, target_type, strict_target_type) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/datums/datum.dm#L180">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;datum.dm 180"/></a></aside>
+        </h3>
+        <p>Convert a list of json to datum</p><h3><aside class="declaration">proc </aside><a name="proc/json_serialize_datum">json_serialize_datum</a><aside>(/<a href="datum.html">datum</a>/D, /list/options) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/datums/datum.dm#L171">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;datum.dm 171"/></a></aside>
+        </h3>
+        <p>Convert a datum into a json blob</p><h3><aside class="declaration">proc </aside><a name="proc/load_map">load_map</a><aside>(dmm_file, x_offset, y_offset, z_offset, cropMap, measureOnly, no_changeturf, x_lower, x_upper, y_lower, y_upper, placeOnTop) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mapping/reader.dm#L44">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mapping&#x2F;reader.dm 44"/></a></aside>
+        </h3>
+        <p>Shortcut function to parse a map and apply it to the world.</p>
+<ul>
+<li><code>dmm_file</code>: A .dmm file to load (Required).</li>
+<li><code>x_offset</code>, <code>y_offset</code>, <code>z_offset</code>: Positions representign where to load the map (Optional).</li>
+<li><code>cropMap</code>: When true, the map will be cropped to fit the existing world dimensions (Optional).</li>
+<li><code>measureOnly</code>: When true, no changes will be made to the world (Optional).</li>
+<li><code>no_changeturf</code>: When true, [turf/AfterChange] won't be called on loaded turfs</li>
+<li><code>x_lower</code>, <code>x_upper</code>, <code>y_lower</code>, <code>y_upper</code>: Coordinates (relative to the map) to crop to (Optional).</li>
+<li><code>placeOnTop</code>: Whether to use [turf/PlaceOnTop] rather than [turf/ChangeTurf] (Optional).</li>
+</ul><h3><aside class="declaration">proc </aside><a name="proc/log_combat">log_combat</a><aside>(/<a href="atom.html">atom</a>/user, /<a href="atom.html">atom</a>/target, what_done, /<a href="atom.html">atom</a>/object, addition) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/game/atoms.dm#L1033">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 1033"/></a></aside>
+        </h3>
+        <p>Log a combat message in the attack log</p>
+<p>1 argument is the actor performing the action
+2 argument is the target of the action
+3 is a verb describing the action (e.g. punched, throwed, kicked, etc.)
+4 is a tool with which the action was made (usually an item)
+5 is any additional text, which will be appended to the rest of the log line</p><h3><aside class="declaration">proc </aside><a name="proc/log_directed_talk">log_directed_talk</a><aside>(/<a href="atom.html">atom</a>/source, /<a href="atom.html">atom</a>/target, message, message_type, tag) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/game/atoms.dm#L1015">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 1015"/></a></aside>
+        </h3>
+        <p>Helper for logging of messages with only one sender and receiver</p><h3><aside class="declaration">proc </aside><a name="proc/make_datum_references_lists">make_datum_references_lists</a><aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/__HELPERS/global_lists.dm#L5">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;global_lists.dm 5"/></a></aside>
+        </h3>
+        <p>Initial Building</p><h3><aside class="declaration">proc </aside><a name="proc/movespeed_data_null_check">movespeed_data_null_check</a><aside>(/list/data) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_movespeed.dm#L135">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_movespeed.dm 135"/></a></aside>
+        </h3>
+        <p>Checks if a move speed modifier is valid and not missing any data</p><h3><aside class="declaration">proc </aside><a name="proc/ninjaspeak">ninjaspeak</a><aside>(n) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L232">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 232"/></a></aside>
+        </h3>
+        <p>Convert a message into leet non gaijin speak</p>
+<p>The difference with stutter is that this proc can stutter more than 1 letter</p>
+<p>The issue here is that anything that does not have a space is treated as one word (in many instances). For instance, &quot;LOOKING,&quot; is a word, including the comma.</p>
+<p>It's fairly easy to fix if dealing with single letters but not so much with compounds of letters./N</p><h3><aside class="declaration">proc </aside><a name="proc/notify_ghosts">notify_ghosts</a><aside>(message, ghost_sound, enter_link, /<a href="atom.html">atom</a>/source, /mutable_appearance/alert_overlay, action, flashwindow, ignore_mapload, ignore_key, header, notify_suiciders, notify_volume) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L412">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 412"/></a></aside>
+        </h3>
+        <p>Fancy notifications for ghosts</p>
+<p>The kitchen sink of notification procs</p>
+<p>Arguments:</p>
+<ul>
+<li>message </li>
+<li>ghost_sound sound to play</li>
+<li>enter_link Href link to enter the ghost role being notified for</li>
+<li>source The source of the notification</li>
+<li>alert_overlay The alert overlay to show in the alert message</li>
+<li>action What action to take upon the ghost interacting with the notification, defaults to NOTIFY_JUMP</li>
+<li>flashwindow Flash the byond client window</li>
+<li>ignore_key  Ignore keys if they're in the GLOB.poll_ignore list</li>
+<li>header The header of the notifiaction</li>
+<li>notify_suiciders If it should notify suiciders (who do not qualify for many ghost roles)</li>
+<li>notify_volume How loud the sound should be to spook the user</li>
+</ul><h3><aside class="declaration">proc </aside><a name="proc/offer_control">offer_control</a><aside>(/<a href="mob.html">mob</a>/M) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L484">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 484"/></a></aside>
+        </h3>
+        <p>Offer control of the passed in mob to dead player</p>
+<p>Automatic logging and uses pollCandidatesForMob, how convenient</p><h3><aside class="declaration">proc </aside><a name="proc/process_teleport_locs">process_teleport_locs</a><aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/game/area/areas.dm#L97">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;area&#x2F;areas.dm 97"/></a></aside>
+        </h3>
+        <p>Generate a list of turfs you can teleport to from the areas list</p>
+<p>Includes areas if they're not a shuttle or not not teleport or have no contents</p>
+<p>The chosen turf is the first item in the areas contents that is a station level</p>
+<p>The returned list of turfs is sorted by name</p><h3><aside class="declaration">proc </aside><a name="proc/ran_zone">ran_zone</a><aside>(zone, probability) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L37">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 37"/></a></aside>
+        </h3>
+        <p>Return the zone or randomly, another valid zone</p>
+<p>probability controls the chance it chooses the passed in zone, or another random zone
+defaults to 80</p><h3><aside class="declaration">proc </aside><a name="proc/shake_camera">shake_camera</a><aside>(/<a href="mob.html">mob</a>/M, duration, strength) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L256">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 256"/></a></aside>
+        </h3>
+        <p>Shake the camera of the person viewing the mob SO REAL!</p><h3><aside class="declaration">proc </aside><a name="proc/slur">slur</a><aside>(n) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L83">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 83"/></a></aside>
+        </h3>
+        <p>Makes you speak like you're drunk</p><h3><aside class="declaration">proc </aside><a name="proc/stars">stars</a><aside>(n, pr) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L59">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 59"/></a></aside>
+        </h3>
+        <p>Convert random parts of a passed in message to stars</p>
+<ul>
+<li>n - the string to convert</li>
+<li>pr - probability any character gets changed</li>
+</ul>
+<p>This proc is dangerously laggy, avoid it or die</p><h3><aside class="declaration">proc </aside><a name="proc/stutter">stutter</a><aside>(n) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/mob/mob_helpers.dm#L160">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;mob_helpers.dm 160"/></a></aside>
+        </h3>
+        <p>Adds stuttering to the message passed in</p><h3><aside class="declaration">proc </aside><a name="proc/voice_of_god">voice_of_god</a><aside>(message, /<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/user, /list/span_list, base_multiplier, include_speaker, message_admins) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/17113e286f2d00b4043c094efcadc9ee88b912e4/code/modules/surgery/organs/vocal_cords.dm#L122">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;surgery&#x2F;organs&#x2F;vocal_cords.dm 122"/></a></aside>
+        </h3>
+        <p>VOICE OF GOD</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/17113e286f2d00b4043c094efcadc9ee88b912e4">17113e2</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.0.0</a></footer>
+</body>
+</html>
